@@ -1,0 +1,31 @@
+{
+    "name": "liunian/laravel-api-auth",
+    "description": "laravel API 鉴权",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liunian",
+            "email": "a@liunian.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liunian\\LaravelApiAuth\\": "src"
+        },
+        "files": [
+            "src/fn.php"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "laravel/laravel": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liunian\\LaravelApiAuth\\ServiceProvider"
+            ]
+        }
+    }
+
+}
